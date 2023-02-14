@@ -1,5 +1,28 @@
+/*Generali*/
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+main{
+  text-align: center;
+  width: 50%;
+  margin: 0 auto;
+}
+
+/*Header*/
+header div{
+  padding: 10px 20px;
+}
+
+.logo{
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.scritta{
+  font-size: 40px;
 }
