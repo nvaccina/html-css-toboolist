@@ -10,7 +10,10 @@ body{
 main{
   line-height: 50px;
   text-align: center;
-}
+  margin: 0 auto;
+  background-color: rgba(0, 0, 0, 0.05);
+  padding-top: 40px;
+} 
 
 /*Header*/
 header div{
@@ -24,17 +27,32 @@ header div{
 
 .scritta{
   font-size: 40px;
+  font-weight: 800;
 }
 
 /*Main*/
-.container{
-  margin: 40px auto;
+.container-button{
   width: 50%;
   text-align: left;
+  background-color: white;
+  padding: 5px 50px;
+  border-radius: 5px;
+  margin: 0 auto 5px auto;
 }
+
+.container{
+  width: 50%;
+  margin: 0 auto;
+  text-align: left;
+  background-color: white;
+  padding: 30px 50px;
+  border-radius: 5px;
+}
+
+/*Button*/
 button{
   margin-left: 0;
-  padding: 2px;
+  padding: 6px 10px;
   border-radius: 5px; 
 }
 #task{
@@ -46,6 +64,11 @@ button{
   color: grey;
   background-color: white;
   border-color:#dce0e3;
+}
+
+/*Paragrafi*/
+h3{
+  font-size: 20px;
 }
 .simbolo{
   display: inline-block;
@@ -74,6 +97,8 @@ button{
   color: white;
   margin-left: 5px;
 }
+
+/*colori*/
 #blue{
   background-color: #45abea;
 }
@@ -85,4 +110,10 @@ button{
 }
 #orange{
   background-color: #f29e33;
+}
+#pink{
+  background-color: #d863a1;
+}
+#light-green{
+  background-color: #b0c926;
 }
