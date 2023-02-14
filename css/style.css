@@ -23,11 +23,7 @@ header div{
 .logo{
   display: inline-block;
   vertical-align: middle;
-}
-
-.scritta{
   font-size: 40px;
-  font-weight: 800;
 }
 
 /*Main*/
@@ -37,7 +33,7 @@ header div{
   background-color: white;
   padding: 5px 50px;
   border-radius: 5px;
-  margin: 0 auto 5px auto;
+  margin: 0 auto 3px auto;
 }
 
 .container{
@@ -53,7 +49,8 @@ header div{
 button{
   margin-left: 0;
   padding: 6px 10px;
-  border-radius: 5px; 
+  border-radius: 5px;
+  font-size: 11px;
 }
 #task{
   color: white;
@@ -68,7 +65,7 @@ button{
 
 /*Paragrafi*/
 h3{
-  font-size: 20px;
+  font-size: 25px;
 }
 .simbolo{
   display: inline-block;
@@ -91,11 +88,11 @@ h3{
 
 .azioni{
   border-radius: 15px;
-  border-color:transparent;
-  font-size: 12px;
+  border-color:transparent; 
   padding: 8px 14px;
-  color: white;
   margin-left: 5px;
+  font-size: 12px;
+  color: white;
 }
 
 /*colori*/
