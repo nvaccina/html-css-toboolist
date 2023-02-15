@@ -16,19 +16,23 @@ main{
 } 
 
 /*Header*/
-header div{
+header img{
+  height: 100%;
+  vertical-align: middle;
+}
+header{
+  height: 70px;
   padding: 10px 20px;
 }
-
 .logo{
-  display: inline-block;
   vertical-align: middle;
   font-size: 40px;
+  font-weight: 800;
 }
 
 /*Main*/
 .container-button{
-  width: 50%;
+  width: 70%;
   text-align: left;
   background-color: white;
   padding: 5px 50px;
@@ -37,7 +41,7 @@ header div{
 }
 
 .container{
-  width: 50%;
+  width: 70%;
   margin: 0 auto;
   text-align: left;
   background-color: white;
@@ -51,6 +55,7 @@ button{
   padding: 6px 10px;
   border-radius: 5px;
   font-size: 11px;
+  cursor: pointer;
 }
 #task{
   color: white;
@@ -58,20 +63,27 @@ button{
   border-color:transparent;
 }
 #selection{
-  color: grey;
+  color: #dce0e3;
   background-color: white;
   border-color:#dce0e3;
 }
 
 /*Paragrafi*/
+.container ul{
+  list-style: none;
+}
+
 h3{
   font-size: 25px;
+}
+.container ul li h3::before{
+  content: '\25BE';
+  padding-right: 5px;
 }
 .simbolo{
   display: inline-block;
   height: 18px;
   width: 18px;
-  vertical-align: middle;
   text-align: center;
   line-height: 18px;
   border-radius: 50%;
